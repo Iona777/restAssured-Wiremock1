@@ -1,0 +1,290 @@
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			http://webproxy.civica.com:8080
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "location": {
+        "lat": -38.383494,
+        "lng": 33.427362
+    },
+    "accuracy": 50,
+    "name": "Frontline house",
+    "phone_number": "(+91) 983 893 3937",
+    "address": "29, side layout, cohen 09",
+    "types": [
+        "shoe park",
+        "shop"
+    ],
+    "website": "http://google.com",
+    "language": "French-IN"
+}
+HTTP/1.1 407 Proxy Authentication Required
+Proxy-Authenticate: NEGOTIATE
+Proxy-Authenticate: NTLM
+Cache-Control: no-cache
+Pragma: no-cache
+X-XSS-Protection: 1
+Content-Type: text/html; charset=utf-8
+Proxy-Connection: close
+Connection: close
+Content-Length: 8543
+
+<html>
+  <head>
+    <title>Access Denied</title>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <style>
+html {
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+}
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-style: normal;
+	font-weight: 100;
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	background-color: white;	
+}
+main {
+	position: absolute;
+	margin: 0px;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	left: 0px;
+	max-width: 900px;
+	height: 100%;
+}
+a, a:visited, a:active {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+.background {
+	background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1NTIiIGhlaWdodD0iODAwIiB2aWV3Qm94PSIwIDAgNTUyIDgwMCI+CiAgPGRlZnM+CiAgICA8c3R5bGU+CiAgICAgIC5jbHMtMSB7CiAgICAgICAgZmlsbDogIzAwOWNhNjsKICAgICAgfQoKICAgICAgLmNscy0xLCAuY2xzLTIgewogICAgICAgIGZpbGwtcnVsZTogZXZlbm9kZDsKICAgICAgfQoKICAgICAgLmNscy0yIHsKICAgICAgICBmaWxsOiAjZDYyNTk4OwogICAgICAgIG1peC1ibGVuZC1tb2RlOiBtdWx0aXBseTsKICAgICAgfQogICAgPC9zdHlsZT4KICA8L2RlZnM+CiAgPHBhdGggaWQ9IlRlYWxfQ2FyZXQiIGRhdGEtbmFtZT0iVGVhbCBDYXJldCIgY2xhc3M9ImNscy0xIiBkPSJNMjMxLDI2OWg5Mkw1NTIsODAwSDQyN0wyNzcsNDIyLDEyNyw4MDBIMVoiLz4KICA8cGF0aCBpZD0iUGluayIgY2xhc3M9ImNscy0yIiBkPSJNNjQ5Ljg2Ni0yNDQuNTY5bDg5Ljk3LDM1LjNoMEwzMDAuODI0LDkwOS42OWgwbC04OS45NjktMzUuM2gwTDY0OS44NjYtMjQ0LjU2OWgwWiIvPgo8L3N2Zz4K");
+	height: 100%;
+	background-position: bottom right;
+	background-repeat: no-repeat;
+}
+.frame {
+	padding-left: 30px;
+	margin: 30px;
+}
+.dialog {
+	width: 100%;	
+	background-color: white;
+	color: #262626;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+}
+.footer {
+	width: 100%;
+	background-color: white;
+	color: #262626;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+}
+.dialog .message {
+	padding: 20px;
+}
+.dialog .message a, .dialog .message a:visited, .dialog .message a:active {
+	font-weight: bold;
+	color: #d62598;
+}
+.dialog .message a:hover {
+	color: #009ca6;
+}
+.dialog .message .title {
+	color: #009ca6;
+	font-size: 30pt;
+	font-weight: bold;
+	margin: 10px 0px 30px 0px;
+}
+.dialog .message p {
+	color: #262626;
+	font-size: 10pt;
+	line-height: 125%;
+}
+.dialog .message label {
+	font-weight: bold;
+}
+.dialog .message input[type=text], .dialog .message input[type=password] {
+	padding: 6px 10px;
+	margin: 8px 4px;
+	box-sizing: border-box;
+	border-radius: 6px;
+	border: none;
+	background-color: #f2f2f2;
+	color: #262626;
+}
+.dialog .message input[type=button], .dialog .message input[type=submit], .dialog .message input[type=reset] {
+	background-color: #d62598;
+	border-radius: 6px;
+	border: none;
+	color: white;
+	padding: 6px 10px;
+	text-decoration: none;
+	margin: 8px 4px;
+	cursor: pointer;
+}
+.dialog .message .highlight {
+	font-weight: bold;
+}
+.dialog .message table {
+	border: none;
+}
+.dialog .message table td {
+	padding: 10px 15px 10px 15px;
+	color: white;
+	background-color: #d62598;
+}
+.dialog .message table td.category {
+	min-width: 150px;
+}
+.dialog .message table td span.name {
+	font-size: 8pt;
+}
+.dialog .message table td span.value1 {
+	font-weight: bold;
+	font-size: large;
+}
+.dialog .message table td span.value2 {
+	font-size: 8pt;
+}
+.footer .message {
+	padding: 20px;
+}
+.footer .message .tech {
+	padding: 10px;
+	background-color: #f2f2f2;
+}
+.footer .message a, .footer .message a:visited, .footer .message a:active {
+	font-weight: bold;
+	color: #d62598;
+}
+.footer .message a:hover {
+	color: #009ca6;
+}
+.footer .message p {
+	color: #262626;
+	font-size: 10pt;
+	line-height: 125%;
+}
+.footer .message .tech table {
+	border: none;
+}
+.footer .message .tech table td {
+	padding: 3px;
+	font-size: 8pt;	
+}
+.footer .message .tech table td.name {
+	width: 100px;
+}
+.footer .message .tech table td.value {
+	font-weight: bold;
+}
+.footer .message .tech table td.url {
+	padding: 9px 3px 3px 3px;
+}
+.footer .logo {
+	padding: 10px 20px 20px 20px;
+}
+@media screen and (max-width: 1300px) {
+	.background {
+		background: none;
+	}
+	.frame {
+		padding-left: 15px;
+		margin: 15px;
+	}
+}
+@media screen and (max-width: 700px) {
+	.dialog .message table.categorisation td.category {
+		min-width: 0px;
+	}
+}
+</style>
+  </head>
+  <body>
+    <div class="background"/>
+    <main>
+      <div class="frame">
+        <div class="dialog">
+          <div class="message">
+            <p class="title">
+						Access Denied
+					</p>
+            <p>
+
+						Your credentials could not be authenticated:               <span class="highlight">Credentials are missing.</span>
+. You will not be permitted access until your credentials can be verified.
+					            </p>
+            <p>
+						This is typically caused by an incorrect username and/or password, but could also be caused by network problems.
+					</p>
+          </div>
+        </div>
+        <div class="footer">
+          <div class="message">
+            <p>
+
+						For further assistance, please contact the               <a shape="rect" href="https://servicedesk.civica.co.uk/ServiceDesk/ss">Service Desk</a>
+ and include the following information...
+					            </p>
+            <div class="tech">
+              <table>
+                <tr>
+                  <td colspan="1" rowspan="1" class="name">Exception</td>
+                  <td colspan="1" rowspan="1" class="value">authentication_failed</td>
+                </tr>
+                <tr>
+                  <td colspan="1" rowspan="1" class="name">Time</td>
+                  <td colspan="1" rowspan="1" class="value">2021-09-17 08:22:15 UTC</td>
+                </tr>
+                <tr>
+                  <td colspan="1" rowspan="1" class="name">Source</td>
+                  <td colspan="1" rowspan="1" class="value">10.44.68.109 ()</td>
+                </tr>
+                <tr>
+                  <td colspan="1" rowspan="1" class="name">Proxy Server</td>
+                  <td colspan="1" rowspan="1" class="value">CR-UK-WGA-7</td>
+                </tr>
+                <tr>
+                  <td colspan="1" rowspan="1" class="name">Categorisation</td>
+                  <td colspan="1" rowspan="1" class="value"> (3)</td>
+                </tr>
+                <tr>
+                  <td colspan="1" rowspan="1" class="name">Host</td>
+                  <td colspan="1" rowspan="1" class="value">rahulshettyacademy.com</td>
+                </tr>
+                <tr>
+                  <td colspan="2" rowspan="1" class="url">
+                    <a shape="rect" href="tcp://rahulshettyacademy.com:443/">tcp://rahulshettyacademy.com:443/</a>
+                  </td>
+                </tr>
+              </table>
+            </div>
+          </div>
+          <div class="logo">
+            <img src="data:image/png;base64,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"/>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
